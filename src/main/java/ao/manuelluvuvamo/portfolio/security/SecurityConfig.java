@@ -49,8 +49,11 @@ public class SecurityConfig {
                         .requestMatchers("/api/v1/auth/login", "/api/v1/auth/refresh").permitAll()
                         // Leitura publica do conteudo do portfolio.
                         .requestMatchers(HttpMethod.GET, "/api/v1/public/**").permitAll()
-                        // Formulario de contacto do site.
-                        .requestMatchers(HttpMethod.POST, "/api/v1/public/contact").permitAll()
+                        // Formulario de contacto e contadores de leitura do site.
+                        .requestMatchers(HttpMethod.POST,
+                                "/api/v1/public/contact",
+                                "/api/v1/public/posts/*/view",
+                                "/api/v1/public/posts/*/read").permitAll()
                         .requestMatchers("/actuator/health", "/v3/api-docs/**", "/docs", "/docs/**",
                                 "/swagger-ui/**").permitAll()
                         .requestMatchers("/api/v1/admin/**", "/api/v1/auth/me").hasRole("ADMIN")

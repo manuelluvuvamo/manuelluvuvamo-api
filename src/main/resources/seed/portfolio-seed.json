@@ -1,7 +1,7 @@
 {
   "profile": {
     "key": "default",
-    "fullName": "Manuel António Luvuvamo",
+    "fullName": "Manuel Luvuvamo",
     "headline": "Desenvolvedor de software, Mentor Tech, Criador de soluções",
     "headlineEn": "Software developer, Tech Mentor, Solution creator",
     "shortBio": "Sou desenvolvedor de software e líder técnico na Kinsari, em Luanda. Desenho, construo e mantenho sistemas — com atenção particular à integração entre plataformas e à arquitectura que os aguenta a longo prazo.",
@@ -445,12 +445,7 @@
       "slug": "xilonga",
       "summary": "Ambiente virtual de ensino à distância construído para o Ministério da Educação de Angola.",
       "description": "Plataforma de ensino à distância para o Ministério da Educação, desenvolvida no Centro de Desenvolvimento de Competências do ITEL. Gestão de cursos, turmas, materiais e avaliação online.",
-      "tech": [
-        "PHP",
-        "Laravel",
-        "MySQL",
-        "Linux"
-      ],
+      "tech": ["PHP", "Laravel", "MySQL", "Linux"],
       "role": "Desenvolvedor Web",
       "year": 2022,
       "category": "PROFESSIONAL",
@@ -464,11 +459,7 @@
       "summary": "Portal oficial de candidatura aos cursos da Huawei em parceria com o MINTTICS.",
       "url": "https://lead23.itel.gov.ao",
       "description": "Portal de candidaturas a formação profissional, com validação documental, gestão de vagas e acompanhamento do processo de selecção.",
-      "tech": [
-        "PHP",
-        "Laravel",
-        "MySQL"
-      ],
+      "tech": ["PHP", "Laravel", "MySQL"],
       "role": "Desenvolvedor Web",
       "year": 2023,
       "category": "PROFESSIONAL",
@@ -482,11 +473,7 @@
       "summary": "Plataforma de oferta de vagas de estágio do Instituto de Telecomunicações.",
       "url": "https://vagas.itel.gov.ao",
       "description": "Plataforma que liga estudantes do ITEL a vagas de estágio, com candidatura online e gestão do lado das empresas.",
-      "tech": [
-        "PHP",
-        "Laravel",
-        "MySQL"
-      ],
+      "tech": ["PHP", "Laravel", "MySQL"],
       "role": "Desenvolvedor Web",
       "year": 2022,
       "category": "PROFESSIONAL",
@@ -499,11 +486,7 @@
       "slug": "sistema-de-gestao-escolar",
       "summary": "Ferramenta de gestão usada pelo ITEL e por escolas da província do Uíge.",
       "description": "Matrículas, turmas, pautas e emissão de documentos escolares. Desenhado para funcionar com ligações instáveis e ser operado por pessoal não técnico.",
-      "tech": [
-        "PHP",
-        "Laravel",
-        "MySQL"
-      ],
+      "tech": ["PHP", "Laravel", "MySQL"],
       "role": "Desenvolvedor Web",
       "year": 2022,
       "category": "PROFESSIONAL",
@@ -516,11 +499,7 @@
       "slug": "gpeu",
       "summary": "Sistema de estatísticas escolares e portal do Gabinete Provincial de Educação do Uíge.",
       "description": "Recolha e consolidação de estatísticas escolares da província, com portal público de divulgação.",
-      "tech": [
-        "PHP",
-        "Laravel",
-        "MySQL"
-      ],
+      "tech": ["PHP", "Laravel", "MySQL"],
       "role": "Desenvolvedor Web",
       "year": 2023,
       "category": "PROFESSIONAL",
@@ -534,12 +513,7 @@
       "summary": "Sistema de gestão de eventos e controlo de acesso para Angola.",
       "url": "https://smartbrace.ao/",
       "description": "Gestão de eventos, bilhética e controlo de acesso. Nasceu da tese de fim de curso sobre controlo de acesso via RFID.",
-      "tech": [
-        "PHP",
-        "Laravel",
-        "MySQL",
-        "RFID"
-      ],
+      "tech": ["PHP", "Laravel", "MySQL", "RFID"],
       "role": "Desenvolvedor",
       "year": 2023,
       "category": "PROFESSIONAL",
@@ -553,10 +527,7 @@
       "summary": "Plataforma web desenvolvida para o mercado angolano.",
       "url": "https://zenga.co.ao",
       "description": "Plataforma web construída para o mercado angolano, com foco em simplicidade de operação.",
-      "tech": [
-        "PHP",
-        "Laravel"
-      ],
+      "tech": ["PHP", "Laravel"],
       "role": "Desenvolvedor",
       "year": 2024,
       "category": "PROFESSIONAL",
@@ -571,11 +542,7 @@
       "url": "https://packagist.org/packages/manuelluvuvamo/laravel-bug-courier",
       "repositoryUrl": "https://github.com/manuelluvuvamo/laravel-bug-courier",
       "description": "Recolhe o contexto de uma excepção e encaminha-o para o destino que escolheres — Slack, Discord, email, issue tracker — num formato consistente e legível.",
-      "tech": [
-        "PHP",
-        "Laravel",
-        "PHPUnit"
-      ],
+      "tech": ["PHP", "Laravel", "PHPUnit"],
       "role": "Autor e mantenedor",
       "year": 2025,
       "category": "OPEN_SOURCE",
@@ -589,11 +556,7 @@
       "summary": "Integração do plugin Select2 com o Laravel Livewire.",
       "repositoryUrl": "https://github.com/manuelluvuvamo/laravel-livewire-select2",
       "description": "Faz o Select2 e o Livewire coexistirem sem perder estado entre renderizações — um problema recorrente de quem usa os dois juntos.",
-      "tech": [
-        "JavaScript",
-        "Laravel",
-        "Livewire"
-      ],
+      "tech": ["JavaScript", "Laravel", "Livewire"],
       "role": "Autor",
       "year": 2025,
       "category": "OPEN_SOURCE",
@@ -607,10 +570,7 @@
       "summary": "Projecto de estudo de Clean Architecture aplicada a PHP.",
       "repositoryUrl": "https://github.com/manuelluvuvamo/CleanArchPHP",
       "description": "Camadas, repositórios e casos de uso em PHP puro, sem framework, para isolar o que é decisão de arquitectura do que é conveniência do framework.",
-      "tech": [
-        "PHP",
-        "PHPUnit"
-      ],
+      "tech": ["PHP", "PHPUnit"],
       "role": "Autor",
       "year": 2025,
       "category": "EXPERIMENT",
@@ -624,9 +584,7 @@
       "summary": "Experiência em Python à volta de estruturas de aprendizagem.",
       "repositoryUrl": "https://github.com/manuelluvuvamo/edutree",
       "description": "Exploração de trilhas de estudo como estrutura de dados navegável.",
-      "tech": [
-        "Python"
-      ],
+      "tech": ["Python"],
       "role": "Autor",
       "year": 2025,
       "category": "EXPERIMENT",
@@ -640,10 +598,7 @@
       "summary": "Sistema de gestão hospitalar em Laravel.",
       "repositoryUrl": "https://github.com/manuelluvuvamo/SGH",
       "description": "Consultas, pacientes e registos clínicos.",
-      "tech": [
-        "PHP",
-        "Laravel"
-      ],
+      "tech": ["PHP", "Laravel"],
       "role": "Autor",
       "year": 2023,
       "category": "EXPERIMENT",
@@ -657,10 +612,7 @@
       "summary": "Processamento de ficheiros CNAB num desafio fullstack.",
       "repositoryUrl": "https://github.com/manuelluvuvamo/desafio-dev-fullstack",
       "description": "Importação e normalização de ficheiros CNAB, com relatório por loja.",
-      "tech": [
-        "PHP",
-        "Laravel"
-      ],
+      "tech": ["PHP", "Laravel"],
       "role": "Autor",
       "year": 2023,
       "category": "EXPERIMENT",
@@ -673,9 +625,7 @@
       "slug": "lista-de-presenca",
       "summary": "Registo de presenças em JavaScript.",
       "repositoryUrl": "https://github.com/manuelluvuvamo/listadepresenca",
-      "tech": [
-        "JavaScript"
-      ],
+      "tech": ["JavaScript"],
       "role": "Autor",
       "year": 2022,
       "category": "EXPERIMENT",
@@ -688,10 +638,7 @@
       "slug": "angogest",
       "summary": "Interface de gestão para o contexto angolano.",
       "repositoryUrl": "https://github.com/manuelluvuvamo/angogest",
-      "tech": [
-        "HTML",
-        "CSS"
-      ],
+      "tech": ["HTML", "CSS"],
       "role": "Autor",
       "year": 2022,
       "category": "EXPERIMENT",
@@ -705,10 +652,7 @@
       "summary": "Plataforma de importação, gestão administrativa, pagamentos e serviços digitais. Projecto próprio.",
       "url": "https://facebook.com/quickandsafeshopping",
       "description": "Serviço de importação e serviços digitais para o mercado angolano, fundado e gerido por mim.",
-      "tech": [
-        "Laravel",
-        "MySQL"
-      ],
+      "tech": ["Laravel", "MySQL"],
       "role": "Fundador",
       "year": 2023,
       "category": "PROFESSIONAL",
@@ -733,7 +677,7 @@
       "title": "Programador Zero: Aprendendo a Programar do Absoluto Zero",
       "slug": "programador-zero",
       "excerpt": "“Olá, sou uma pessoa interessada em aprender a programar, mas não tenho qualquer formação. Já vi que és bom nisso, o que sugeres? Assim como eu, acredito que muitos programadores e…",
-      "content": "“Olá, sou uma pessoa interessada em aprender a programar, mas não tenho qualquer formação. Já vi que és bom nisso, o que sugeres? \n\nAssim como eu, acredito que muitos programadores e desenvolvedores já receberam esse tipo de mensagem diversas vezes ou até mesmo como iniciantes e aspirantes já enviaram essa mensagem muitas vezes. A falta de orientação é realmente frustrante para quem quer se iniciar. Há muito conteúdo disponível online, mas a má compreensão dos algoritmos de pesquisa e da complexa maquinaria que é a Internet frustra as hipóteses de obter facilmente os melhores resultados.\n\nHá um ano, quando leccionei o curso de programação web no CFITEL, recebi muitos entusiastas em bruto da matéria. Embora tenha ultrapassado esta dificuldade com uma ou duas aulas introdutórias para construir pequenas bases, vi-me obrigado a orientá-los mesmo depois do curso e a obrigá-los a voltar aos princípios básicos da lógica e a aprender linguagens mais simples, como Python, por exemplo.\n\nNeste artigo descrevo do meu ponto de vista, o que considero ser uma receita saudável e funcional para quem quer escrever o seu primeiro código e evoluir como programador/desenvolvedor.\n\n###  1. BASES SÓLIDAS EM LÓGICA MATEMÁTICA E DE PROGRAMAÇÃO \n\nÉ sabido que a informática está intrinsecamente ligada à matemática desde os seus primórdios, pelo que é muito importante dominar as preposições e conjunções matemáticas, construir um pensamento lógico e crítico e treinar a mente para que os resultados possíveis sejam apenas verdadeiros ou falsos, omitindo assim o talvez.\n\nA lógica de programação oferece aos entusiastas conceitos práticos em português, sobretudo, que serão úteis na aprendizagem de uma linguagem de programação de baixo ou alto nível.\n\nNa programação, a lógica é central, pois muitas operações só funcionam devido a operadores como os condicionais, quando a execução de um determinado trecho de código (conjunto de instruções) depende de um conjunto de condições que se verificam ou não, as estruturas condicionais devolvem um resultado booleano (verdadeiro ou falso), no final é só isso, ou é verdadeiro ou é falso, tão simples como beber água. As estruturas condicionais utilizam operadores de comparação conhecidos na matemática como:\n\n-Maior que: `a > b` \n\n-Menor que: `a < b` \n\n-Maior que ou igual: `a >= b` \n\n-Menor ou igual: `a <= b` \n\n-Igual: existem duas ou mais formas, = ou == consoante a linguagem ou a tecnologia...\n\nNão só os operadores de comparação são importantes, como as conjunções, que também geram a famosa tabela de verdade, são frequentemente utilizadas em condições para juntar duas ou mais condições: Ou, E, Negação, etc. \n\n```cmd\n\n   Algoritmo \"Exemplo Lógica de Programação (VisualG)\"\n   // Descrição   : Exemplo sobre Lógica de Programação com VisualG\n   // Autor(a)    : Manuel António Luvuvamo\n   // Data atual  : 23/09/2024\n   Var\n   // Seção de Declarações das variáveis \n   a, b, c, d:inteiro\n\n   Inicio\n   // Seção de Comandos, procedimento, funções, operadores, etc... \n\n   a <- 5\n   b <- 10\n   c <- 2\n   d <- 0\n\n   se a > b ENTAO\n      escreval(\"Opção 1\")\n   senao\n      se c > d ENTAO\n         escreval(\"Opção 2\")\n         \n      senao\n            escreval(\"Opção 3\")\n         fimse\n   fimse\n\n   Fimalgoritmo\n\n```\n\nRecomendação: <a href=\"https://www.cursoemvideo.com/curso/curso-de-algoritmo/\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">Curso de Algoritmos de Gustavo Guanabara </a> \n\n###  2. LINGUAGENS DE PROGRAMAÇÃO DE BAIXO NÍVEL \n\nDepois de ter uma boa base em lógica de programação, é altura de aprender uma linguagem de baixo nível (mais próxima da linguagem de máquina), que abre portas e, em muitos casos, diferencia os programadores dos desenvolvedores (talvez uma conversa para outro artigo).\n\nDepois do Assembly, COBOL, BASIC, Pascal e outras, surgiu a linguagem C, que ainda hoje é muito utilizada. Essa poderosíssima linguagem oferece inúmeros mecanismos para consumir e manipular recursos de hardware, manipular memória e assim por diante. Eu particularmente comecei com uma linguagem similar e igualmente poderosa, o C++, mas ainda assim recomendo fortemente que se aprenda pelo menos até a manipulação de arquivos ou mesmo recursividade (C++ por permitir estruturas de classes e métodos) com essas linguagens.\n\nRecomendações: Cursos do YouTube, Udemy e livros, especialmente os antigos (algumas coisas são como o vinho, quanto mais velho melhor).\n\n###  3. DIFERENTES ÁREAS E MERCADOS DE ACTUAÇÃO \n\nAgora que já sabes o básico, é fundamental pesquisar e definir que tipo de profissional queres ser no mundo da programação. Ser um nómada tecnológico não é tarefa fácil e pode levar a arrependimentos, por isso, fazer alguma pesquisa sobre benefícios, oportunidades e talvez salários médios é um cupão para evitar arrependimentos, pois cada ramo tem as suas ramificações e nunca acaba.\n\n<u>Defina quem você quer ser: um programador ou um desenvolvedor.</u>\n\n- Programador: algumas literaturas os definem como profissionais que sabem escrever código, enquanto outras os definem como profissionais que se concentram em codificar projetos com especificações detalhadas previamente fornecidas por um analista ou engenheiro de software, podendo inclusive codificar soluções com linguagens de baixo ou alto nível, desktop ou mobile.\n\n- Desenvolvedor: também conhecido como desenvolvedor de software, é responsável por todo o ciclo de vida do software, desde a sua conceção até à sua implementação. São os profissionais que concebem e criam soluções. São especializados na criação de soluções completas de software.\n\nNoutras literaturas podemos ainda encontrar que um programador codifica soluções de baixo nível que são utilizadas por outros técnicos (programadores, analistas, etc.) tais como SO, IDE, Editores de Código, etc. Quem sabe qual é a abordagem correta? Eu acredito que sou um desenvolvedor de software...\n\nRecomendação: Leia artigos, livros, veja vídeos e participe em debates para esclarecer as suas dúvidas, sem esquecer que, no final, o objetivo é escolher o mercado em que vai actuar.\n\n###  4. ROADMAPS: \n\nFinalmente, depois de dominar a lógica de programação, aprender uma linguagem de baixo nível e ter uma ideia do tipo de profissional que se quer ser, está na altura de seguir algumas trilhas de estudo. Felizmente, o site <a href=\"https://roadmap.sh/\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">Roadmap.sh </a>  já nos oferece algumas trilhas criadas, a criação de trilhas por IA ou, quem sabe, talvez um dia eu crie uma trilha personalizada.\n\n<u>Conceitos frequentemente utilizados para diferenciar ambientes e tipos de soluções: </u> desktop para executáveis em computadores, mobile para executáveis em smartphones e finalmente web acessível na internet por navegadores.\n\nAtenção: O Rodmap não oferece cursos, ele oferece trilhas de estudo com recomendações sobre o que estudar e, em alguns casos, onde estudar.\n\n###  5. BÓNUS - LINGUAGEM DE ALTO NÍVEL VS LINGUAGEM DE BAIXO NÍVEL \n\nAs linguagens de baixo nível são aquelas cujas instruções estão mais próximas da linguagem de máquina, linguagem binária (zeros e uns). Exemplos: Assembly, C (embora seja considerada uma linguagem de nível intermédio), etc.\n\nAs linguagens de alto nível são aquelas cujas instruções se assemelham mais à linguagem humana, com uma lógica e uma coerência linguística que permitem aprender facilmente novas linguagens (instruções mais intuitivas). Eu já programei python sem saber python e isso até me valeu uma vitória numa Maratona de Programação com apenas um exercício, hilariante. Exemplos: C#, Java, Python, PHP, etc... \n\n“A programação é uma competência que melhora com a prática constante. Comece com pequenos passos, compreenda a lógica e, com o tempo, verá que os desafios se tornam oportunidades de aprendizagem. Boa sorte na sua jornada!\n\n###  REFERÊNCIAS \n\n1.Pratica Internet. (n.d.). Qual é a diferença entre programador e desenvolvedor? Recuperado em 23 de setembro de 2024, de <a href=\"https://www.sitesrecife.com/blog/qual-e-a-diferenca-entre-programador-e-desenvolvedor\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">https://www.sitesrecife.com/blog/qual-e-a-diferenca-entre-programador-e-desenvolvedor</a>\n\n2.Lopes, J. (n.d.). Programador, desenvolvedor ou engenheiro de software: qual a diferença? Recuperado em 23 de setembro de 2024, de <a href=\"https://www.dio.me/articles/programador-desenvolvedor-ou-engenheiro-de-software-qual-a-diferenca\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">https://www.dio.me/articles/programador-desenvolvedor-ou-engenheiro-de-software-qual-a-diferenca</a>",
+      "content": "“Olá, sou uma pessoa interessada em aprender a programar, mas não tenho qualquer formação. Já vi que és bom nisso, o que sugeres? \n\nAssim como eu, acredito que muitos programadores e desenvolvedores já receberam esse tipo de mensagem diversas vezes ou até mesmo como iniciantes e aspirantes já enviaram essa mensagem muitas vezes. A falta de orientação é realmente frustrante para quem quer se iniciar. Há muito conteúdo disponível online, mas a má compreensão dos algoritmos de pesquisa e da complexa maquinaria que é a Internet frustra as hipóteses de obter facilmente os melhores resultados.\n\nHá um ano, quando leccionei o curso de programação web no CFITEL, recebi muitos entusiastas em bruto da matéria. Embora tenha ultrapassado esta dificuldade com uma ou duas aulas introdutórias para construir pequenas bases, vi-me obrigado a orientá-los mesmo depois do curso e a obrigá-los a voltar aos princípios básicos da lógica e a aprender linguagens mais simples, como Python, por exemplo.\n\nNeste artigo descrevo do meu ponto de vista, o que considero ser uma receita saudável e funcional para quem quer escrever o seu primeiro código e evoluir como programador/desenvolvedor.\n\n###  1. BASES SÓLIDAS EM LÓGICA MATEMÁTICA E DE PROGRAMAÇÃO \n\nÉ sabido que a informática está intrinsecamente ligada à matemática desde os seus primórdios, pelo que é muito importante dominar as preposições e conjunções matemáticas, construir um pensamento lógico e crítico e treinar a mente para que os resultados possíveis sejam apenas verdadeiros ou falsos, omitindo assim o talvez.\n\nA lógica de programação oferece aos entusiastas conceitos práticos em português, sobretudo, que serão úteis na aprendizagem de uma linguagem de programação de baixo ou alto nível.\n\nNa programação, a lógica é central, pois muitas operações só funcionam devido a operadores como os condicionais, quando a execução de um determinado trecho de código (conjunto de instruções) depende de um conjunto de condições que se verificam ou não, as estruturas condicionais devolvem um resultado booleano (verdadeiro ou falso), no final é só isso, ou é verdadeiro ou é falso, tão simples como beber água. As estruturas condicionais utilizam operadores de comparação conhecidos na matemática como:\n\n-Maior que: `a > b` \n\n-Menor que: `a < b` \n\n-Maior que ou igual: `a >= b` \n\n-Menor ou igual: `a <= b` \n\n-Igual: existem duas ou mais formas, = ou == consoante a linguagem ou a tecnologia...\n\nNão só os operadores de comparação são importantes, como as conjunções, que também geram a famosa tabela de verdade, são frequentemente utilizadas em condições para juntar duas ou mais condições: Ou, E, Negação, etc. \n\n```cmd\n\n   Algoritmo \"Exemplo Lógica de Programação (VisualG)\"\n   // Descrição   : Exemplo sobre Lógica de Programação com VisualG\n   // Autor(a)    : Manuel Luvuvamo\n   // Data atual  : 23/09/2024\n   Var\n   // Seção de Declarações das variáveis \n   a, b, c, d:inteiro\n\n   Inicio\n   // Seção de Comandos, procedimento, funções, operadores, etc... \n\n   a <- 5\n   b <- 10\n   c <- 2\n   d <- 0\n\n   se a > b ENTAO\n      escreval(\"Opção 1\")\n   senao\n      se c > d ENTAO\n         escreval(\"Opção 2\")\n         \n      senao\n            escreval(\"Opção 3\")\n         fimse\n   fimse\n\n   Fimalgoritmo\n\n```\n\nRecomendação: <a href=\"https://www.cursoemvideo.com/curso/curso-de-algoritmo/\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">Curso de Algoritmos de Gustavo Guanabara </a> \n\n###  2. LINGUAGENS DE PROGRAMAÇÃO DE BAIXO NÍVEL \n\nDepois de ter uma boa base em lógica de programação, é altura de aprender uma linguagem de baixo nível (mais próxima da linguagem de máquina), que abre portas e, em muitos casos, diferencia os programadores dos desenvolvedores (talvez uma conversa para outro artigo).\n\nDepois do Assembly, COBOL, BASIC, Pascal e outras, surgiu a linguagem C, que ainda hoje é muito utilizada. Essa poderosíssima linguagem oferece inúmeros mecanismos para consumir e manipular recursos de hardware, manipular memória e assim por diante. Eu particularmente comecei com uma linguagem similar e igualmente poderosa, o C++, mas ainda assim recomendo fortemente que se aprenda pelo menos até a manipulação de arquivos ou mesmo recursividade (C++ por permitir estruturas de classes e métodos) com essas linguagens.\n\nRecomendações: Cursos do YouTube, Udemy e livros, especialmente os antigos (algumas coisas são como o vinho, quanto mais velho melhor).\n\n###  3. DIFERENTES ÁREAS E MERCADOS DE ACTUAÇÃO \n\nAgora que já sabes o básico, é fundamental pesquisar e definir que tipo de profissional queres ser no mundo da programação. Ser um nómada tecnológico não é tarefa fácil e pode levar a arrependimentos, por isso, fazer alguma pesquisa sobre benefícios, oportunidades e talvez salários médios é um cupão para evitar arrependimentos, pois cada ramo tem as suas ramificações e nunca acaba.\n\n<u>Defina quem você quer ser: um programador ou um desenvolvedor.</u>\n\n- Programador: algumas literaturas os definem como profissionais que sabem escrever código, enquanto outras os definem como profissionais que se concentram em codificar projetos com especificações detalhadas previamente fornecidas por um analista ou engenheiro de software, podendo inclusive codificar soluções com linguagens de baixo ou alto nível, desktop ou mobile.\n\n- Desenvolvedor: também conhecido como desenvolvedor de software, é responsável por todo o ciclo de vida do software, desde a sua conceção até à sua implementação. São os profissionais que concebem e criam soluções. São especializados na criação de soluções completas de software.\n\nNoutras literaturas podemos ainda encontrar que um programador codifica soluções de baixo nível que são utilizadas por outros técnicos (programadores, analistas, etc.) tais como SO, IDE, Editores de Código, etc. Quem sabe qual é a abordagem correta? Eu acredito que sou um desenvolvedor de software...\n\nRecomendação: Leia artigos, livros, veja vídeos e participe em debates para esclarecer as suas dúvidas, sem esquecer que, no final, o objetivo é escolher o mercado em que vai actuar.\n\n###  4. ROADMAPS: \n\nFinalmente, depois de dominar a lógica de programação, aprender uma linguagem de baixo nível e ter uma ideia do tipo de profissional que se quer ser, está na altura de seguir algumas trilhas de estudo. Felizmente, o site <a href=\"https://roadmap.sh/\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">Roadmap.sh </a>  já nos oferece algumas trilhas criadas, a criação de trilhas por IA ou, quem sabe, talvez um dia eu crie uma trilha personalizada.\n\n<u>Conceitos frequentemente utilizados para diferenciar ambientes e tipos de soluções: </u> desktop para executáveis em computadores, mobile para executáveis em smartphones e finalmente web acessível na internet por navegadores.\n\nAtenção: O Rodmap não oferece cursos, ele oferece trilhas de estudo com recomendações sobre o que estudar e, em alguns casos, onde estudar.\n\n###  5. BÓNUS - LINGUAGEM DE ALTO NÍVEL VS LINGUAGEM DE BAIXO NÍVEL \n\nAs linguagens de baixo nível são aquelas cujas instruções estão mais próximas da linguagem de máquina, linguagem binária (zeros e uns). Exemplos: Assembly, C (embora seja considerada uma linguagem de nível intermédio), etc.\n\nAs linguagens de alto nível são aquelas cujas instruções se assemelham mais à linguagem humana, com uma lógica e uma coerência linguística que permitem aprender facilmente novas linguagens (instruções mais intuitivas). Eu já programei python sem saber python e isso até me valeu uma vitória numa Maratona de Programação com apenas um exercício, hilariante. Exemplos: C#, Java, Python, PHP, etc... \n\n“A programação é uma competência que melhora com a prática constante. Comece com pequenos passos, compreenda a lógica e, com o tempo, verá que os desafios se tornam oportunidades de aprendizagem. Boa sorte na sua jornada!\n\n###  REFERÊNCIAS \n\n1.Pratica Internet. (n.d.). Qual é a diferença entre programador e desenvolvedor? Recuperado em 23 de setembro de 2024, de <a href=\"https://www.sitesrecife.com/blog/qual-e-a-diferenca-entre-programador-e-desenvolvedor\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">https://www.sitesrecife.com/blog/qual-e-a-diferenca-entre-programador-e-desenvolvedor</a>\n\n2.Lopes, J. (n.d.). Programador, desenvolvedor ou engenheiro de software: qual a diferença? Recuperado em 23 de setembro de 2024, de <a href=\"https://www.dio.me/articles/programador-desenvolvedor-ou-engenheiro-de-software-qual-a-diferenca\" className=\"border-b transition-all text-gray-500 duration-500 hover:border-gray-500\" target=\"_blank\">https://www.dio.me/articles/programador-desenvolvedor-ou-engenheiro-de-software-qual-a-diferenca</a>",
       "tags": [],
       "readingMinutes": 7,
       "publishedAt": "2024-09-22T23:00:00.000Z",
@@ -770,9 +714,7 @@
       "excerpt": "Série de textos semanais sobre desenvolvimento de software para a comunidade angolana.",
       "externalUrl": "https://facebook.com/artogosemanal",
       "source": "Artigo Semanal",
-      "tags": [
-        "comunidade"
-      ],
+      "tags": ["comunidade"],
       "publishedAt": "2024-01-01T00:00:00.000Z",
       "status": "PUBLISHED"
     }
@@ -784,11 +726,7 @@
       "slug": "comunidade-e-mentoria-para-devs-angolanos",
       "subtitle": "Porque é que o problema não é falta de conteúdo",
       "content": "Em Angola não falta gente com vontade de programar. Falta **sequência**. O júnior angolano típico tem quarenta separadores abertos, três cursos começados, nenhum terminado, e ninguém que lhe diga *faz isto, depois aquilo, e quando terminares mostra-me*.\n\nO conteúdo já existe e é gratuito — roadmap.sh, freeCodeCamp, Curso em Vídeo, YouTube. O que não existe é ordem, contexto local e alguém a olhar.\n\nÉ por isso que estou a construir uma comunidade com três pilares: trilhas curadas em vez de cursos produzidos, rituais agendados em vez de presença permanente, e progressão por estatuto em vez de salário. A regra que ordena todas as decisões é uma só: nunca criar nada que só eu possa manter.",
-      "tags": [
-        "comunidade",
-        "mentoria",
-        "angola"
-      ],
+      "tags": ["comunidade", "mentoria", "angola"],
       "publishedAt": "2026-08-13T00:00:00.000Z",
       "status": "PUBLISHED"
     }

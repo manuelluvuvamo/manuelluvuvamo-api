@@ -29,6 +29,14 @@ public abstract class CrudService<T extends BaseDocument> {
         // Sem normalizacao por omissao.
     }
 
+    /**
+     * Gancho para salvar campos que o dashboard nao envia e que se perderiam
+     * na substituicao total — contadores, por exemplo.
+     */
+    protected void carryOver(T existing, T incoming) {
+        // Nada a preservar por omissao.
+    }
+
     public List<T> findAll() {
         return repository.findAll(defaultSort());
     }
@@ -52,6 +60,7 @@ public abstract class CrudService<T extends BaseDocument> {
         T existing = findById(id);
         entity.setId(existing.getId());
         entity.setCreatedAt(existing.getCreatedAt());
+        carryOver(existing, entity);
         prepare(entity);
         return repository.save(entity);
     }

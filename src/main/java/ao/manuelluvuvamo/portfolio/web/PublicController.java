@@ -107,6 +107,20 @@ public class PublicController {
         return posts.findPublishedBySlug(slug);
     }
 
+    /** O leitor abriu o artigo. */
+    @PostMapping("/posts/{slug}/view")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void registerView(@PathVariable String slug) {
+        posts.registerView(slug);
+    }
+
+    /** O leitor chegou ao fim do artigo. */
+    @PostMapping("/posts/{slug}/read")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void registerRead(@PathVariable String slug) {
+        posts.registerRead(slug);
+    }
+
     @GetMapping("/articles")
     public List<Article> articles() {
         return articles.findPublished();

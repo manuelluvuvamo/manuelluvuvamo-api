@@ -43,6 +43,12 @@ public class Post extends BaseDocument implements Sluggable {
 
     private ContentStatus status = ContentStatus.DRAFT;
 
+    /** Quantas vezes o artigo foi aberto. */
+    private long viewCount;
+
+    /** Quantas vezes foi lido até ao fim. */
+    private long readCount;
+
     @Override
     public String slugSource() {
         return title;

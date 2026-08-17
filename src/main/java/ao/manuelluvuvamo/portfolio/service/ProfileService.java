@@ -32,7 +32,7 @@ public class ProfileService {
     private Profile createEmpty() {
         Profile profile = new Profile();
         profile.setKey(Profile.SINGLETON_KEY);
-        profile.setFullName("Manuel António Luvuvamo");
+        profile.setFullName("Manuel Luvuvamo");
         return repository.save(profile);
     }
 }
