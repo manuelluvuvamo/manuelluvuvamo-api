@@ -16,7 +16,9 @@ spring:
       max-request-size: 6MB
 
 server:
-  port: ${SERVER_PORT:8080}
+  # Cloud Run, Render, Koyeb e afins injectam a porta em PORT. SERVER_PORT
+  # fica como alternativa local.
+  port: ${PORT:${SERVER_PORT:8080}}
   error:
     include-message: always
   compression:
