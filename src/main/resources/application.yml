@@ -34,9 +34,9 @@ portfolio:
     refresh-token-days: ${JWT_REFRESH_DAYS:14}
   admin:
     # Utilizador ADMIN criado no arranque se ainda nao existir.
-    email: ${ADMIN_EMAIL:manuelluvuvamo337@gmail.com}
-    password: ${ADMIN_PASSWORD:admin12345}
-    name: ${ADMIN_NAME:Manuel Luvuvamo}
+    email: ${ADMIN_EMAIL}
+    password: ${ADMIN_PASSWORD}
+    name: ${ADMIN_NAME}
   seed:
     # Popula as coleccoes vazias a partir de classpath:seed/portfolio-seed.json
     enabled: ${SEED_ENABLED:true}
@@ -58,4 +58,4 @@ management:
 
 logging:
   level:
-    ao.manuelluvuvamo.portfolio: INFO
+    com.manuelluvuvamo.portfolio: INFO

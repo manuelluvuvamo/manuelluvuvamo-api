@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>ao.manuelluvuvamo</groupId>
+    <groupId>com.manuelluvuvamo</groupId>
     <artifactId>portfolio-api</artifactId>
     <version>1.0.0</version>
     <name>portfolio-api</name>
