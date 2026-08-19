@@ -13,6 +13,19 @@ import java.time.LocalDate;
 @Document("certifications")
 public class Certification extends BaseDocument {
 
+    public enum Kind {
+        /** Credencial atribuida por uma entidade apos avaliacao. */
+        CERTIFICATION,
+        /** Formacao concluida, com certificado de conclusao. */
+        COURSE
+    }
+
+    /**
+     * Documentos antigos nao tem este campo e sao lidos como COURSE, que e o
+     * caso mais comum — uma certificacao a serio e a excepcao, nao a regra.
+     */
+    private Kind kind = Kind.COURSE;
+
     @NotBlank(message = "O titulo e obrigatorio.")
     private String title;
 
