@@ -27,6 +27,13 @@ public class Experience extends BaseDocument {
 
     private String companyUrl;
 
+    /**
+     * Nome do icone mostrado ao lado do cargo. O frontend so conhece uma
+     * lista curada (ver icons.ts): aceitar qualquer nome do lucide-react
+     * obrigaria a carregar a biblioteca inteira no browser.
+     */
+    private String icon;
+
     @NotNull(message = "A data de inicio e obrigatoria.")
     private LocalDate startDate;
 

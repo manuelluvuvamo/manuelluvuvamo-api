@@ -51,8 +51,8 @@ public class GlobalExceptionHandler {
     public ResponseEntity<ApiError> handleUploadTooLarge(MaxUploadSizeExceededException ex,
                                                          HttpServletRequest request) {
         return ResponseEntity.status(HttpStatus.PAYLOAD_TOO_LARGE)
-                .body(ApiError.of(413, "Payload Too Large", "O ficheiro passa do limite permitido.",
-                        request.getRequestURI()));
+                .body(ApiError.of(413, "Payload Too Large",
+                        "O ficheiro passa do limite de 5 MB.", request.getRequestURI()));
     }
 
     @ExceptionHandler(DuplicateKeyException.class)

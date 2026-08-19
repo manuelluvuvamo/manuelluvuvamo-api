@@ -14,6 +14,8 @@ public class CertificationService extends CrudService<Certification> {
 
     @Override
     protected Sort defaultSort() {
-        return Sort.by(Sort.Order.asc("orderIndex"), Sort.Order.desc("issuedAt"));
+        // Certificacoes primeiro, e dentro de cada grupo as mais recentes.
+        return Sort.by(Sort.Order.asc("kind"), Sort.Order.asc("orderIndex"),
+                Sort.Order.desc("issuedAt"));
     }
 }
