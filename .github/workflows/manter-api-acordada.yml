@@ -1,0 +1,48 @@
+# Mantém a API acordada nas horas de maior tráfego.
+#
+# O plano gratuito do Render adormece o serviço ao fim de ~15 minutos sem
+# pedidos, e acordá-lo demora perto de um minuto. Um toque de 10 em 10
+# minutos mantém-no de pé com margem.
+#
+# Só entre as 07h e as 23h de Luanda, de propósito: o plano gratuito dá 750
+# horas de instância por mês e um serviço acordado 24/7 gasta ~730 — ficarias
+# no limite, sem espaço para mais nada. Assim gastas ~480 e sobra folga.
+#
+# Fora dessa janela o site continua a funcionar: as páginas são estáticas e
+# há o seed local. O que fica lento é o primeiro acesso ao /admin.
+
+name: Manter a API acordada
+
+on:
+  schedule:
+    # Em UTC. Luanda é UTC+1, por isso 6–21 UTC = 07h–22h50 em Luanda.
+    - cron: "*/10 6-21 * * *"
+  # Permite tocar à mão a partir do separador Actions.
+  workflow_dispatch:
+
+jobs:
+  tocar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Chamar o health check
+        run: |
+          # --max-time generoso: se o serviço estiver a dormir, esta chamada
+          # é a que o acorda, e isso demora perto de um minuto.
+          # --retry cobre o caso de o despertar passar do primeiro limite.
+          resposta=$(curl --silent --show-error --location \
+                          --max-time 90 --retry 3 --retry-delay 15 \
+                          --retry-all-errors \
+                          --write-out "\n%{http_code}" \
+                          "${{ vars.API_HEALTH_URL }}")
+
+          corpo=$(echo "$resposta" | sed '$d')
+          estado=$(echo "$resposta" | tail -n1)
+
+          echo "HTTP $estado — $corpo"
+
+          if [ "$estado" != "200" ]; then
+            echo "::error::A API respondeu $estado. Ver os logs no Render."
+            exit 1
+          fi
