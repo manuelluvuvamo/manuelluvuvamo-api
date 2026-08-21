@@ -16,7 +16,7 @@ name: Manter a API acordada
 on:
   schedule:
     # Em UTC. Luanda é UTC+1, por isso 6–21 UTC = 07h–22h50 em Luanda.
-    - cron: "*/10 6-21 * * *"
+    - cron: "*/7 6-21 * * *"
   # Permite tocar à mão a partir do separador Actions.
   workflow_dispatch:
 
